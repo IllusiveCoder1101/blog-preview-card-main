@@ -1,0 +1,163 @@
+* {
+    --primary-color-: hsl(47, 88%, 63%);
+    --neutral-color1-: hsl(0, 0%, 100%);
+    --neutral-color2-: hsl(0, 0%, 50%);
+    --neutral-color3-: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Figtree-Semi";
+    src: url("./assets/fonts/static/Figtree-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Figtree-Extra";
+    src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format('truetype');
+}
+
+body {
+    background-color: var(--primary-color-);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background-color: var(--neutral-color1-);
+    width: 40%;
+    min-width: 20em;
+    padding: 1em;
+    border-radius: 1em;
+
+    box-shadow: 0.8em 1em var(--neutral-color3-);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.img1,
+.img2,
+.tag,
+.main {
+    border: 0.1em solid var(--neutral-color3-);
+}
+
+.img1 {
+    border-radius: 0.7em;
+}
+
+.img2 {
+    width: 3em;
+    border-radius: 50%;
+}
+
+.header {
+    font-family: Figtree-Extra;
+    font-size: 1.4em;
+    transition: all linear 0.2s;
+}
+
+.header:hover {
+    cursor: pointer;
+    color: var(--primary-color-);
+}
+
+.para1,
+.para2 {
+    font-family: Figtree-Semi;
+    font-size: 0.8em;
+}
+
+.para2 {
+    color: var(--neutral-color2-)
+}
+
+.para3 {
+    font-family: Figtree-Extra;
+    font-size: 1em;
+}
+
+.tag {
+    font-family: Figtree-Extra;
+    font-size: 0.8em;
+    background-color: var(--primary-color-);
+    width: 5em;
+    padding: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2em;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    margin: 0.7em 0 -0.3em;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    padding: 0.7em 0;
+    background-color: var(--neutral-color3-);
+    color: var(--neutral-color1-);
+    font-family: Figtree-Semi;
+    font-size: 0.8em;
+}
+
+a {
+    color: var(--primary-color-);
+}
+
+@media screen and (min-width:768px) {
+    .main {
+        max-width: 28em;
+    }
+
+    .para1,
+    .para2,
+    .para3,
+    .attribution {
+        font-size: 1em;
+    }
+
+    .tag {
+        font-size: 1.1em;
+    }
+
+    .header {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .main {
+        max-width: 24em;
+    }
+
+    .para1,
+    .para2,
+    .para3,
+    .attribution {
+        font-size: 1em;
+    }
+
+    .tag {
+        font-size: 1.1em;
+    }
+
+    .header {
+        font-size: 1.7em;
+    }
+}
