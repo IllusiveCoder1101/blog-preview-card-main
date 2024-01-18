@@ -6,7 +6,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -23,16 +22,12 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
-
-![![Alt text](image.png)](./screenshot.jpg)
-
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/IllusiveCoder1101/blog-preview-card-main)
+- Live Site URL: [Add live site URL here](https://blog-preview-card-fmentor.netlify.app/)
 
 ## My process
 
