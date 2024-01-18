@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/IllusiveCoder1101/blog-preview-card-main)
-- Live Site URL: [Add live site URL here](https://blog-preview-card-fmentor.netlify.app/)
+- Solution URL: [Github](https://github.com/IllusiveCoder1101/blog-preview-card-main)
+- Live Site URL: [Live Site](https://blog-preview-card-fmentor.netlify.app/)
 
 ## My process
 
@@ -46,8 +46,8 @@ This was just a practice to brush up my HTML & CSS knowledge.
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Github - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@IllusiveCoder1101](https://www.frontendmentor.io/profile/IllusiveCoder1101)
+- Github - [@IllusiveCoder1101](https://github.com/IllusiveCoder1101)
 
 
 
