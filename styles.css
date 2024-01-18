@@ -40,6 +40,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.8em;
+    transition: all linear 0.5s;
+}
+
+.main:hover {
+    box-shadow: 1.2em 1.4em var(--neutral-color3-);
 }
 
 .img1,
